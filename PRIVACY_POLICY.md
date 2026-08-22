@@ -37,7 +37,7 @@ We use the following third-party services which may collect information accordin
 ## 4. Data Retention & Deletion
 Your data is stored securely in the Firebase Cloud. You can delete your account and all associated data at any time:
 *   **In the App:** Go to **Profile → Delete Account**. This permanently removes your account, cloud backup, and leaderboard entry.
-*   **On the Web:** Visit our [Account Deletion Page](https://YOUR-USERNAME.github.io/YOUR-REPO-NAME/account-deletion.html) or email us at **ravitejafine@gmail.com**.
+*   **On the Web:** Visit our (https://github.com/ravitejakummara/FootFall/blob/45cf2c1c1bfdc8ffa3eb799ca33d6fde92caf884/ACCOUNT_DELETION.md) or email us at **ravitejafine@gmail.com**.
 
 Deletion is permanent and cannot be reversed.
 
