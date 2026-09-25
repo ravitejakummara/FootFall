@@ -7,9 +7,10 @@ FootFall by GK ("we", "our", or "the App") is committed to protecting your priva
 ## 1. Information We Collect
 
 ### A. Health and Fitness Data
-The App's primary purpose is to track your physical activity. We collect:
+The App's primary purpose is to track your physical activity and nutrition. We collect:
 *   **Step Counts:** Using your device's built-in sensors via the `ACTIVITY_RECOGNITION` permission.
-*   **Hydration Logs:** Data you manually enter regarding water intake.
+*   **Hydration & Nutrition Logs:** Data regarding water intake and food calorie/macro logs.
+*   **Meal Photos (Gemini AI Scanner):** Photos you voluntarily snap or upload to estimate meal calories using Google Gemini AI Vision. Photos are processed strictly for nutritional analysis and are not sold or retained for advertising.
 *   **Physical Metrics:** Height, weight, age, and gender provided by you to calculate calories burned and BMI.
 
 ### B. Personal Information
@@ -23,27 +24,29 @@ To provide cloud synchronization and leaderboard features, we collect:
 
 ## 2. How We Use Your Information
 *   **To provide services:** Calculating your daily activity, calories, and BMI.
-*   **Cloud Sync:** Backing up your walk history and profile so you don't lose data during uninstalls or device changes.
+*   **Cloud Sync:** Backing up your walk history, hydration, and profile so you don't lose data during uninstalls or device changes.
 *   **Leaderboards:** Displaying your display name and step totals to other users in global rankings.
-*   **AI Insights:** Providing personalized health tips based on your activity level.
+*   **AI Insights & Gemini Meal Scanner:** Providing personalized health tips and meal calorie estimations based on your activity level and meal photos using Google Gemini AI. Photos are processed strictly for nutritional analysis and are not retained or used for advertising.
 *   **Advertisements:** Showing relevant ads via third-party providers.
 
 ## 3. Third-Party Services
 We use the following third-party services which may collect information according to their own policies:
 *   **Google Play Services:** Used for core App functionality.
 *   **Firebase (Google):** Used for Authentication, Realtime Database (Cloud Sync), Analytics, and Crashlytics.
-*   **Unity Ads:** Used to deliver advertisements. Unity may collect device data to personalize ad content. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
+*   **Google Gemini AI:** Used for AI health tips and meal photo calorie estimation. [Google Privacy Policy](https://policies.google.com/privacy)
+*   **Unity Ads:** Used to deliver advertisements. [Unity Privacy Policy](https://unity.com/legal/privacy-policy)
 
 ## 4. Data Retention & Deletion
 Your data is stored securely in the Firebase Cloud. You can delete your account and all associated data at any time:
 *   **In the App:** Go to **Profile → Delete Account**. This permanently removes your account, cloud backup, and leaderboard entry.
-*   **On the Web:** Visit our (https://github.com/ravitejakummara/FootFall/blob/45cf2c1c1bfdc8ffa3eb799ca33d6fde92caf884/ACCOUNT_DELETION.md) or email us at **ravitejafine@gmail.com**.
+*   **On the Web:** Visit our [Account Deletion Page](https://ravitejakummara.github.io/FootFall_Privacy_Policy/account-deletion.html) or email us at **ravitejafine@gmail.com**.
 
 Deletion is permanent and cannot be reversed.
 
 ## 5. Permissions
 The App requires the following permissions:
 *   **Activity Recognition:** To detect steps in the background.
+*   **Camera:** To optionally capture meal photos for Gemini AI calorie estimation.
 *   **Internet:** To sync data with the cloud and load advertisements.
 *   **Notifications:** To send hydration and daily report reminders.
 
